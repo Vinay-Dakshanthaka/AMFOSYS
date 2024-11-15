@@ -1,0 +1,24 @@
+open the project inside command prompt (working directory : AMFOSYS/)
+run the below command to install necessry packages to run the project 
+
+npm install 
+
+then run below command 
+
+npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch
+
+this will automatically watch for changes and rebuild the output (dist/styles.css) as soon as you save changes to any of the files it is watching (like src/styles.css, your HTML files, etc.).
+
+Typical Use Case of ::>> npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch
+=========================================================================================
+During development, you would run this command so that as you edit your HTML or CSS files (or any files referenced in the content array of your Tailwind config), Tailwind rebuilds dist/styles.css automatically.
+This setup is often used with JIT mode (Just-In-Time mode) enabled, which tailors the final CSS to include only the classes you are actually using in your HTML, keeping the final CSS file as small as possible.
+
+
+
+To see the webpage inside the browser follow the below steps 
+===========================================================
+
+===>>  in file explorer double click on index.html file 
+=================--OR--===================
+open index.html in vscode ==>> open with live server 

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Amfosys - Leading SAP Training Institute. Expert trainers, real-world projects, and comprehensive SAP courses to advance your career.">
+    <meta name="keywords" content="Amfosys, SAP Training, SAP Courses, SAP Certification, SAP Institute">
+    <meta name="author" content="Amfosys">
+    <title>Amfosys - SAP Training Institute</title>
+    <link href="./dist/styles.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./assets/logo/logo.webp">
+</head>
+
+<body class="bg-gray-100 ">
+    <!-- Header  starts-->
+    <header class="bg-indigo-800 shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="flex justify-between items-center py-4">
+                <!-- Logo -->
+                <a href="/" class="flex items-center">
+                    <img src="./assets/logo/logo.webp" alt="Amfosys Logo" class="h-10 w-10">
+                    <span class="ml-2 text-xl font-semibold text-white">Amfosys</span>
+                </a>
+
+                <!-- Navigation Links -->
+                <nav class="hidden md:flex space-x-6 items-center">
+                    <a href="/home" class="text-white hover:text-blue-600 transition">Home</a>
+                    <a href="/aboutus" class="text-white hover:text-blue-600 transition">About Us</a>
+                    <div class="relative group">
+                        <button class="text-white hover:text-blue-600 transition flex items-center">
+                            Courses
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M5.293 9.707a1 1 0 011.414 0L10 13.414l3.293-3.707a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                        <!-- Dropdown -->
+                        <div class="absolute hidden group-hover:block bg-white border shadow-md rounded-md mt-2">
+                            <a href="/courses/sap-ewm" class="block px-4 py-2 text-white hover:bg-blue-100">SAP
+                                EWM</a>
+                            <a href="/courses/sap-mm" class="block px-4 py-2 text-white hover:bg-blue-100">SAP MM</a>
+                        </div>
+                    </div>
+                    <a href="/contactus" class="text-white hover:text-blue-600 transition">Contact Us</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button id="menu-toggle" class="md:hidden text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden overflow-hidden transition-all duration-300 ease-in-out md:hidden">
+                <a href="/home" class="block py-2 text-white hover:bg-blue-100 px-4">Home</a>
+                <a href="/aboutus" class="block py-2 text-white hover:bg-blue-100 px-4">About Us</a>
+                <div class="relative">
+                    <button id="dropdown-toggle"
+                        class="block w-full text-left py-2 px-4 text-white hover:bg-blue-100">
+                        Courses
+                    </button>
+                    <!-- Dropdown -->
+                    <div id="dropdown-menu" class="hidden bg-white border shadow-md rounded-md">
+                        <a href="/courses/sap-ewm" class="block px-4 py-2 text-white hover:bg-blue-100">SAP EWM</a>
+                        <a href="/courses/sap-mm" class="block px-4 py-2 text-white hover:bg-blue-100">SAP MM</a>
+                    </div>
+                </div>
+                <a href="/contactus" class="block py-2 text-white hover:bg-blue-100 px-4">Contact Us</a>
+            </div>
+        </div>
+    </header>
+    <!------------ Header ends ----------------->
+<hr class="bg-black w-10">
+    <hr class="bg-black h-1"><!-- Main Content Starts-->
+    <main class="py-16 px-8">
+
+        <!-- Main Heading (h1) -->
+        <h1 class="text-indigo-900 text-4xl font-bold mb-8">
+          For h1 I am using these classes: <span class="text-indigo-500">text-indigo-900 text-4xl font-bold mb-8</span>
+        </h1>
+    
+        <!-- Subheading (h2) -->
+        <h2 class="text-indigo-700 text-3xl font-semibold mb-6">
+          For h2 I am using these classes: <span class="text-indigo-500">text-indigo-700 text-3xl font-semibold mb-6</span>
+        </h2>
+    
+        <!-- Paragraph (p) -->
+        <p class="text-gray-800 mb-8">
+          For paragraph I am using these classes: <span class="text-indigo-500">text-gray-800 mb-8</span>
+        </p>
+    
+        <!-- Subheading 2 -->
+        <h2 class="text-indigo-700 text-3xl font-semibold mb-6">
+          For subheading (h2) in a section: <span class="text-indigo-500">text-indigo-700 text-3xl font-semibold mb-6</span>
+        </h2>
+    
+        <!-- Link -->
+        <p class="mb-8">
+          For links I am using these classes: <span class="text-indigo-500">text-indigo-600 hover:text-indigo-800</span>
+          <br>
+          Example link: <a href="#" class="text-indigo-600 hover:text-indigo-800">Click here for more info</a>
+        </p>
+    
+        <!-- Call to Action Button -->
+        <button class="bg-indigo-500 text-white py-2 px-6 rounded hover:bg-indigo-600 focus:outline-none mb-8">
+          For button I am using these classes: <span class="text-white">bg-indigo-500 text-white py-2 px-6 rounded hover:bg-indigo-600</span>
+        </button>
+        </main>
+    <!-- Main Content Ends-->
+<hr class="bg-black w-10">
+<hr class="bg-black h-1">
+    <main class="py-16 px-8">
+
+        <!-- Main Heading (h1) -->
+        <h1 class="text-emerald-900 text-4xl font-bold mb-8">
+            For h1 I am using these classes: <span class="text-emerald-500">text-emerald-900 text-4xl font-bold mb-8</span>
+        </h1>
+    
+        <!-- Subheading (h2) -->
+        <h2 class="text-emerald-700 text-3xl font-semibold mb-6">
+            For h2 I am using these classes: <span class="text-emerald-500">text-emerald-700 text-3xl font-semibold mb-6</span>
+        </h2>
+    
+        <!-- Paragraph (p) -->
+        <p class="text-gray-800 mb-8">
+            For paragraph I am using these classes: <span class="text-emerald-500">text-gray-800 mb-8</span>
+        </p>
+    
+        <!-- Subheading 2 -->
+        <h2 class="text-emerald-700 text-3xl font-semibold mb-6">
+            For subheading (h2) in a section: <span class="text-emerald-500">text-emerald-700 text-3xl font-semibold mb-6</span>
+        </h2>
+    
+        <!-- Link -->
+        <p class="mb-8">
+            For links I am using these classes: <span class="text-emerald-500">text-emerald-600 hover:text-emerald-800</span>
+            <br>
+            Example link: <a href="#" class="text-emerald-600 hover:text-emerald-800">Click here for more info</a>
+        </p>
+    
+        <!-- Call to Action Button -->
+        <button class="bg-emerald-500 text-white py-2 px-6 rounded hover:bg-emerald-600 focus:outline-none mb-8">
+            For button I am using these classes: <span class="text-white">bg-emerald-500 text-white py-2 px-6 rounded hover:bg-emerald-600</span>
+        </button>
+   <hr class="bg-black w-10"> </main>
+<hr class="bg-black h-1">
+    <main class="py-16 px-8">
+
+        <!-- Main Heading (h1) -->
+        <h1 class="text-cyan-900 text-4xl font-bold mb-8">
+            For h1 I am using these classes: <span class="text-cyan-500">text-cyan-900 text-4xl font-bold mb-8</span>
+        </h1>
+    
+        <!-- Subheading (h2) -->
+        <h2 class="text-cyan-700 text-3xl font-semibold mb-6">
+            For h2 I am using these classes: <span class="text-cyan-500">text-cyan-700 text-3xl font-semibold mb-6</span>
+        </h2>
+    
+        <!-- Paragraph (p) -->
+        <p class="text-gray-800 mb-8">
+            For paragraph I am using these classes: <span class="text-cyan-500">text-gray-800 mb-8</span>
+        </p>
+    
+        <!-- Subheading 2 -->
+        <h2 class="text-cyan-700 text-3xl font-semibold mb-6">
+            For subheading (h2) in a section: <span class="text-cyan-500">text-cyan-700 text-3xl font-semibold mb-6</span>
+        </h2>
+    
+        <!-- Link -->
+        <p class="mb-8">
+            For links I am using these classes: <span class="text-cyan-500">text-cyan-600 hover:text-cyan-800</span>
+            <br>
+            Example link: <a href="#" class="text-cyan-600 hover:text-cyan-800">Click here for more info</a>
+        </p>
+    
+        <!-- Call to Action Button -->
+        <button class="bg-cyan-500 text-white py-2 px-6 rounded hover:bg-cyan-600 focus:outline-none mb-8">
+            For button I am using these classes: <span class="text-white">bg-cyan-500 text-white py-2 px-6 rounded hover:bg-cyan-600</span>
+        </button>
+   <hr class="bg-black w-10"> </main>
+<hr class="bg-black h-1">
+    <main class="py-16 px-8">
+
+        <!-- Main Heading (h1) -->
+        <h1 class="text-teal-900 text-4xl font-bold mb-8">
+            For h1 I am using these classes: <span class="text-teal-500">text-teal-900 text-4xl font-bold mb-8</span>
+        </h1>
+    
+        <!-- Subheading (h2) -->
+        <h2 class="text-teal-700 text-3xl font-semibold mb-6">
+            For h2 I am using these classes: <span class="text-teal-500">text-teal-700 text-3xl font-semibold mb-6</span>
+        </h2>
+    
+        <!-- Paragraph (p) -->
+        <p class="text-gray-800 mb-8">
+            For paragraph I am using these classes: <span class="text-teal-500">text-gray-800 mb-8</span>
+        </p>
+    
+        <!-- Subheading 2 -->
+        <h2 class="text-teal-700 text-3xl font-semibold mb-6">
+            For subheading (h2) in a section: <span class="text-teal-500">text-teal-700 text-3xl font-semibold mb-6</span>
+        </h2>
+    
+        <!-- Link -->
+        <p class="mb-8">
+            For links I am using these classes: <span class="text-amber-600">text-amber-600 hover:text-amber-800</span>
+            <br>
+            Example link: <a href="#" class="text-amber-600 hover:text-amber-800">Click here for more info</a>
+        </p>
+    
+        <!-- Call to Action Button -->
+        <button class="bg-teal-500 text-white py-2 px-6 rounded hover:bg-teal-600 focus:outline-none mb-8">
+            For button I am using these classes: <span class="text-white">bg-teal-500 text-white py-2 px-6 rounded hover:bg-teal-600</span>
+        </button>
+   <hr class="bg-black w-10"> </main>
+<hr class="bg-black h-1">
+    <main class="py-16 px-8">
+
+        <!-- Main Heading (h1) -->
+        <h1 class="text-orange-800 text-4xl font-bold mb-8">
+            For h1 I am using these classes: <span class="text-orange-500">text-orange-800 text-4xl font-bold mb-8</span>
+        </h1>
+    
+        <!-- Subheading (h2) -->
+        <h2 class="text-red-700 text-3xl font-semibold mb-6">
+            For h2 I am using these classes: <span class="text-red-500">text-red-700 text-3xl font-semibold mb-6</span>
+        </h2>
+    
+        <!-- Paragraph (p) -->
+        <p class="text-yellow-800 mb-8">
+            For paragraph I am using these classes: <span class="text-yellow-500">text-yellow-800 mb-8</span>
+        </p>
+    
+        <!-- Subheading 2 -->
+        <h2 class="text-red-700 text-3xl font-semibold mb-6">
+            For subheading (h2) in a section: <span class="text-red-500">text-red-700 text-3xl font-semibold mb-6</span>
+        </h2>
+    
+        <!-- Link -->
+        <p class="mb-8">
+            For links I am using these classes: <span class="text-yellow-600">text-yellow-600 hover:text-yellow-800</span>
+            <br>
+            Example link: <a href="#" class="text-yellow-600 hover:text-yellow-800">Click here for more info</a>
+        </p>
+    
+        <!-- Call to Action Button -->
+        <button class="bg-orange-500 text-white py-2 px-6 rounded hover:bg-orange-600 focus:outline-none mb-8">
+            For button I am using these classes: <span class="text-white">bg-orange-500 text-white py-2 px-6 rounded hover:bg-orange-600</span>
+        </button>
+    </main>
+
+    <hr class="bg-black h-1">
+    <main class="py-16 px-8">
+
+        <!-- Main Heading (h1) -->
+        <h1 class="text-blue-800 text-4xl font-bold mb-8">
+            For h1 I am using these classes: <span class="text-blue-500">text-blue-800 text-4xl font-bold mb-8</span>
+        </h1>
+    
+        <!-- Subheading (h2) -->
+        <h2 class="text-green-700 text-3xl font-semibold mb-6">
+            For h2 I am using these classes: <span class="text-green-500">text-green-700 text-3xl font-semibold mb-6</span>
+        </h2>
+    
+        <!-- Paragraph (p) -->
+        <p class="text-purple-800 mb-8">
+            For paragraph I am using these classes: <span class="text-purple-500">text-purple-800 mb-8</span>
+        </p>
+    
+        <!-- Subheading 2 -->
+        <h2 class="text-green-700 text-3xl font-semibold mb-6">
+            For subheading (h2) in a section: <span class="text-green-500">text-green-700 text-3xl font-semibold mb-6</span>
+        </h2>
+    
+        <!-- Link -->
+        <p class="mb-8">
+            For links I am using these classes: <span class="text-blue-600">text-blue-600 hover:text-blue-800</span>
+            <br>
+            Example link: <a href="#" class="text-blue-600 hover:text-blue-800">Click here for more info</a>
+        </p>
+    
+        <!-- Call to Action Button -->
+        <button class="bg-green-500 text-white py-2 px-6 rounded hover:bg-green-600 focus:outline-none mb-8">
+            For button I am using these classes: <span class="text-white">bg-green-500 text-white py-2 px-6 rounded hover:bg-green-600</span>
+        </button>
+    </main>
+
+    <!-- Footer Starts  -->
+    <footer class="bg-indigo-800 text-white py-8">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Logo and Description -->
+                <div>
+                    <a href="/" class="flex items-center mb-4">
+                        <img src="./assets/logo/logo.webp" alt="Amfosys Logo" class="h-10 w-10">
+                        <span class="ml-2 text-xl font-semibold text-white">Amfosys</span>
+                    </a>
+                    <p class="text-white text-sm">
+                        Amfosys is a leading SAP training institute, offering expert-led courses in SAP EWM, SAP MM, and
+                        more to advance your career.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/home" class="text-white hover:text-blue-400 transition">Home</a></li>
+                        <li><a href="/aboutus" class="text-white hover:text-blue-400 transition">About Us</a></li>
+                        <li><a href="/contactus" class="text-white hover:text-blue-400 transition">Contact Us</a>
+                        </li>
+                        <li><a href="/courses/sap-ewm" class="text-white hover:text-blue-400 transition">SAP EWM</a>
+                        </li>
+                        <li><a href="/courses/sap-mm" class="text-white hover:text-blue-400 transition">SAP MM</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Information -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+                    <ul class="space-y-2 text-white text-sm">
+                        <li><strong>Address:</strong> 123 Training Center Road, Bengaluru, India</li>
+                        <li><strong>Email:</strong> <a href="mailto:info@amfosys.com"
+                                class="hover:text-blue-400 transition">info@amfosys.com</a></li>
+                        <li><strong>Phone:</strong> <a href="tel:+919876543210"
+                                class="hover:text-blue-400 transition">+91 98765 43210</a></li>
+                    </ul>
+                </div>
+
+                <!-- Social Media Links -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+                    <ul class="flex space-x-4">
+                        <li>
+                            <a href="https://facebook.com" target="_blank"
+                                class="text-white hover:text-blue-400 transition">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M22.675 0h-21.35C.587 0 0 .587 0 1.313v21.375C0 23.413.587 24 1.325 24H12.82v-9.309H9.692v-3.628h3.128V8.309c0-3.1 1.893-4.788 4.655-4.788 1.325 0 2.463.1 2.795.144v3.243H17.44c-1.521 0-1.815.723-1.815 1.784v2.34h3.628l-.473 3.629h-3.155V24h6.18c.737 0 1.325-.587 1.325-1.313V1.313C24 .587 23.413 0 22.675 0z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com" target="_blank"
+                                class="text-white hover:text-blue-400 transition">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M24 4.557a9.836 9.836 0 01-2.828.775A4.932 4.932 0 0023.337 3a9.87 9.87 0 01-3.13 1.195 4.918 4.918 0 00-8.38 4.482A13.96 13.96 0 011.675 3.15a4.908 4.908 0 001.523 6.574 4.902 4.902 0 01-2.23-.616c-.054 2.281 1.582 4.415 3.946 4.89a4.935 4.935 0 01-2.224.085c.626 1.956 2.444 3.381 4.6 3.419A9.874 9.874 0 010 19.54a13.94 13.94 0 007.548 2.209c9.142 0 14.307-7.721 13.995-14.646A9.936 9.936 0 0024 4.557z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com" target="_blank"
+                                class="text-white hover:text-blue-400 transition">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M19 0H5C2.239 0 0 2.239 0 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5V5c0-2.761-2.239-5-5-5zM8.461 18.145H5.844v-8.812h2.617v8.812zM7.152 8.417H7.134c-.881 0-1.452-.61-1.452-1.374 0-.781.583-1.374 1.484-1.374.9 0 1.452.593 1.47 1.374 0 .764-.57 1.374-1.482 1.374zm12.27 9.728h-2.617v-4.211c0-1.049-.375-1.763-1.312-1.763-.716 0-1.143.482-1.331.947-.069.17-.086.407-.086.645v4.382h-2.617s.034-7.117 0-8.812h2.617v1.247c.348-.537.975-1.303 2.37-1.303 1.732 0 3.037 1.13 3.037 3.563v5.305z" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center text-gray-500 text-sm mt-8">
+                &copy; 2024 Amfosys. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer Ends  -->
+
+    <script src="./src/index.js"></script>
+</body>
+
+</html>
